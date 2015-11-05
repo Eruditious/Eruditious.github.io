@@ -4,7 +4,7 @@ app.config(function($routeProvider) {
   $routeProvider
 
     .when('/', {
-      templateUrl : '/js/views/cover.html'
+      templateUrl : '/js/views/home.html'
     })
 
     .when('/home', {
@@ -13,15 +13,15 @@ app.config(function($routeProvider) {
 
     .when('/contact', {
       templateUrl : '/js/views/contact.html'
-      
+
     })
     .when('/blog', {
       templateUrl : '/js/views/blog.html'
-      
+
     })
-    .when('/impossible', {
-      templateUrl: '/js/views/impossible.html'
-      
+    .when('/portfolio', {
+      templateUrl: '/js/views/portfolio.html'
+
     })
     .when('/resume', {
       templateUrl: 'js/views/resume.html'
@@ -30,4 +30,3 @@ app.config(function($routeProvider) {
       templateUrl: 'js/views/about.html'
     });
 });
-

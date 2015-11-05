@@ -41,6 +41,9 @@ body {
 
 }
 
+.jumbotron {
+  background-color:#333;
+}
 
 /* Padding for spacing */
 .inner {
@@ -82,32 +85,10 @@ body {
 }
 
 .cover-page {
-  margin-top:200px;
+
   height: 100%;
 }
 
-
-
-/* contact page */
-.contact-container {
-  margin-top:100px;
-
-
-}
-
-.contact-page {
-  background: url('https://images.unsplash.com/photo-1445112098124-3e76dd67983c?q=80&fm=jpg&s=9b34191d37273a0120735e1741aca8af') no-repeat center center fixed;
-  background-size: cover;
-  height: 775px;
-  margin-top:-50px;
-}
-.contact-container {
-  padding-top: 65px;
-}
-
-#main {
-  margin-top:50px;
-}
 
 /*Home Page */
 .codepen-font-1 {
@@ -122,10 +103,10 @@ body {
 
 .intro-header {
   position: static;
-  height: 820px;
-  padding: 50px 0 0 50px;
+  height: 100%;
+  padding:80px 0 0 0;
   text-align: center;
-  background: url('https://images.unsplash.com/photo-1427501482951-3da9b725be23?q=80&fm=jpg&s=f68edb15ce4565555ccf9b6395da4dff') no-repeat center center fixed;
+  background: url('../images/starrynight.jpeg') no-repeat center center fixed;
      background-size: cover;
 }
 
@@ -155,10 +136,24 @@ body {
 /*About Page */
 .content-section-a {
   padding:50px 0;
-  background: url('https://images.unsplash.com/photo-1436891620584-47fd0e565afb?q=80&fm=jpg&s=33cf5b0ee9fbd292475a0c03bee481c9') no-repeat center center fixed;
+  background: url('../images/mountainscene.jpeg') no-repeat center center fixed;
   background-size:cover;
   height: 800px;
 }
+
+.circleprofile {
+  margin-top:70px;
+
+	width: 450px;
+	height: 450px;
+	border-radius: 50%;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url("../images/profilepic2.jpg") no-repeat;
+  background-size:450px,450px;
+
+
+	}
 
 /*blog page */
 .blog-page {
