@@ -9,10 +9,10 @@ a:hover {
   color: #fff;
 }
 /* Custom default button */
-.btn-default,
+
 .btn-default:hover,
 .btn-default:focus {
-  color: #333;
+  color: rgba(25,150,200,.7);
   text-shadow: none; /* Prevent inheritence from `body` */
   background-color: #fff;
   border: 1px solid #fff;
@@ -37,13 +37,6 @@ body {
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
-.cover-container {
-  margin-left: auto;
-  margin-right: auto;
-
-
-}
-
 .jumbotron {
   background-color:#333;
 }
@@ -54,54 +47,24 @@ body {
 }
 
 
-/*
- *  * Cover
- *   */
-
-.cover {
-  padding: 0 20px;
-}
-.cover .btn-lg {
-  padding: 10px 20px;
-  font-weight: bold;
-}
-.cover-heading {
-  text-align: center;
-
-
-}
-
-#definitions {
-  margin: 0;
-  padding: 0;
-  margin-left:100px;
-
-}
-
 .marginBot {
   margin-bottom: 20px;
   margin-top: 75px;
 }
 
-.coverpagebutton {
-  margin-top: 100px;
-}
-
-.cover-page {
-
-  height: 100%;
-}
-
-
 /*Home Page */
-.codepen-font-1 {
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+.cursive-font {
+  font-family: 'Caveat', cursive;
   font-weight: 700;
+}
+#home-page {
+  padding-bottom:25%;
 }
 
 #home-page .lead {
   font-size: 18px;
   font-weight: 400px;
+  height:850px;
 }
 
 .intro-header {
@@ -113,11 +76,18 @@ body {
      background-size: cover;
 }
 
-.home-message {
-  position: relative;
-  padding-top: 20%;
-  padding-bottom: 20%;
+.intro-divider {
+  border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
+.home-message {
+  margin-top:150px;
+  height:100%;
+
+
+}
+
 
 .home-message > h1 {
   margin-top: -150px;
@@ -214,11 +184,10 @@ body {
 .itembox {
   border: 1px solid rgb(150,230,230);
   height:300px;
+  border-bottom-style:none;
 }
 
-.project-title {
-  font-family: 'Caveat', cursive;
-}
+
 
 .caption {
   background: rgba(15,15,45,0.8);
