@@ -18,7 +18,10 @@ a:hover {
   border: 1px solid #fff;
 }
 
-
+* {
+  margin:0;
+  padding:0;
+}
 /*
  *  * Base structure
  *   */
@@ -184,4 +187,43 @@ body {
 
 .impossible-list {
   .margin-top:100px;
+}
+
+#portfolio {
+
+}
+
+.portfolio-header {
+  color: rgb(245,235,255);
+  font-family: 'Caveat', cursive;
+}
+
+.article {
+    height:200px;
+    width:auto;
+
+
+
+
+}
+
+.showcase {
+  color: rgb(245,235,255);
+}
+
+.itembox {
+  border: 1px solid rgb(150,230,230);
+  height:300px;
+}
+
+.project-title {
+  font-family: 'Caveat', cursive;
+}
+
+.caption {
+  background: rgba(15,15,45,0.8);
+  position:relative;
+  overflow: hidden;
+
+
 }
