@@ -24,6 +24,7 @@ $scope.saveRebates = function(rebates) {
   	});
   }
 $scope.getSomeRebates();
+$("#mapdiv").usmap();
 
 
 });
