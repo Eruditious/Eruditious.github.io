@@ -11,5 +11,8 @@ app.config(function($routeProvider) {
     .when('/portfolio', {
       templateUrl: '/js/views/portfolio.html'
     })
-        
+    .when('/ecommerce', {
+      templateUrl:'/js/views/ecommerce.html'
+    })
+
 });
