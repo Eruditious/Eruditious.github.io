@@ -14,5 +14,7 @@ app.config(function($routeProvider) {
     .when('/ecommerce', {
       templateUrl:'/js/views/ecommerce.html'
     })
-
+    .when('/contact', {
+      templateUrl:'/js/views/contact.html'
+    })
 });
