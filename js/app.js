@@ -12,9 +12,9 @@ app.config(function($routeProvider) {
       templateUrl: '/js/views/portfolio.html'
     })
     .when('/ecommerce', {
-      templateUrl:'/js/views/ecommerce.html'
+      templateUrl: '/js/views/ecommerce.html'
     })
     .when('/contact', {
-      templateUrl:'/js/views/contact.html'
+      templateUrl: '/js/views/contact.html'
     })
 });
